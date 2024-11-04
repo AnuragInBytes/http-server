@@ -1,10 +1,12 @@
 {
   "name": "myhttpserver",
   "version": "1.0.0",
+  "type": "module",
   "description": "Creating my own http server from scratch in javascript to understand the concept :)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
   },
   "keywords": [
     "HTTP",
@@ -12,5 +14,8 @@
     "javascript"
   ],
   "author": "Anurag Poddar",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
 }
