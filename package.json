@@ -1,0 +1,16 @@
+{
+  "name": "myhttpserver",
+  "version": "1.0.0",
+  "description": "Creating my own http server from scratch in javascript to understand the concept :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HTTP",
+    "network",
+    "javascript"
+  ],
+  "author": "Anurag Poddar",
+  "license": "ISC"
+}
